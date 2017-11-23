@@ -31,6 +31,10 @@ exports[`A button with modifier and both elements 1`] = `
   user-select: none;
 }
 
+.c0_disabled {
+  pointer-events: none;
+}
+
 .c0::-moz-focus-inner {
   padding: 0;
   border: none;
@@ -173,6 +177,10 @@ exports[`An extended button 1`] = `
   background: lime;
 }
 
+.c0_disabled {
+  pointer-events: none;
+}
+
 .c0::-moz-focus-inner {
   padding: 0;
   border: none;
@@ -285,6 +293,272 @@ exports[`An extended button 1`] = `
 </span>
 `;
 
+exports[`Disabled button 1`] = `
+.c0 {
+  -moz-appearance: none;
+  position: relative;
+  z-index: 1;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font: inherit;
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0_disabled {
+  pointer-events: none;
+}
+
+.c0::-moz-focus-inner {
+  padding: 0;
+  border: none;
+}
+
+.c0__Content {
+  position: relative;
+  display: block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c0__Focus {
+  visibility: hidden;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+}
+
+.c0__BLHelper {
+  float: left;
+  width: 0;
+  min-width: 0;
+}
+
+.c0__BLHelper:before {
+  content: "\\a0";
+}
+
+.c0__Text {
+  display: block;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+*:root .c0__Text,
+.c0__Text:-ms-input-placeholder {
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  width: 100%;
+}
+
+.c0__Before {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  float: left;
+}
+
+.c0__After {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  float: right;
+}
+
+<button
+  className="c0 sc-bdVaJa_disabled c0_disabled"
+  disabled={true}
+  tabIndex="-1"
+  type="button"
+>
+  <span
+    className="__Content c0__Content"
+    tabIndex="-1"
+  >
+    <span
+      className="__Text c0__Text"
+    >
+      Some text
+    </span>
+  </span>
+  <span
+    className="__Focus c0__Focus"
+  />
+</button>
+`;
+
+exports[`Disabled link 1`] = `
+.c0 {
+  -moz-appearance: none;
+  position: relative;
+  z-index: 1;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font: inherit;
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0_disabled {
+  pointer-events: none;
+}
+
+.c0::-moz-focus-inner {
+  padding: 0;
+  border: none;
+}
+
+.c0__Content {
+  position: relative;
+  display: block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c0__Focus {
+  visibility: hidden;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+}
+
+.c0__BLHelper {
+  float: left;
+  width: 0;
+  min-width: 0;
+}
+
+.c0__BLHelper:before {
+  content: "\\a0";
+}
+
+.c0__Text {
+  display: block;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+*:root .c0__Text,
+.c0__Text:-ms-input-placeholder {
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  width: 100%;
+}
+
+.c0__Before {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  float: left;
+}
+
+.c0__After {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  float: right;
+}
+
+<a
+  className="c0 sc-bdVaJa_disabled c0_disabled"
+  disabled={true}
+  href="#x"
+  tabIndex="-1"
+>
+  <span
+    className="__Content c0__Content"
+    tabIndex="-1"
+  >
+    <span
+      className="__Text c0__Text"
+    >
+      Some text
+    </span>
+  </span>
+  <span
+    className="__Focus c0__Focus"
+  />
+</a>
+`;
+
 exports[`Just a button 1`] = `
 .c0 {
   -moz-appearance: none;
@@ -314,6 +588,10 @@ exports[`Just a button 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.c0_disabled {
+  pointer-events: none;
 }
 
 .c0::-moz-focus-inner {

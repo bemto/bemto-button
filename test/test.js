@@ -32,6 +32,22 @@ test('Just a button', () => {
   );
 });
 
+test('Disabled button', () => {
+  testSnapshot(
+    BemtoButton,
+    { disabled: true },
+    'Some text'
+  );
+});
+
+test('Disabled link', () => {
+  testSnapshot(
+    BemtoButton,
+    { disabled: true, href: '#x' },
+    'Some text'
+  );
+});
+
 test('A button with modifier and both elements', () => {
   testSnapshot(
     BemtoButton,

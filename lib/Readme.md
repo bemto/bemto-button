@@ -38,14 +38,15 @@ But that foundation can be really easily styled by [extending](https://www.style
       box-shadow: 0 1px 3px -3px rgba(0,0,0,0.5),
                   0 0 0 1px rgba(0,0,0,0.3);
 
-      &:hover {
-        box-shadow: 0 0 0 2px rgba(0,0,0,0.4);
-      }
-
       /* Apply layout-changing styles here */
       &__Content {
         padding: 5px 10px;
       }
+
+      /* All the simple states */
+      &:hover { box-shadow: 0 0 0 2px rgba(0,0,0,0.4); }
+      &:active { background: linear-gradient(#CCC, #FFF); }
+      &_disabled { opacity: 0.5; }
 
       /* Keyboard-only, won't show on click! */
       ${BemtoButton.focusCSS(`
@@ -118,6 +119,28 @@ The button is kinda bulletproof: its text would be trimmed by ellipsis if there'
       <p>Test of baseline: <Button>Baselined button</Button>, that's it.</p>
     </div>
 
+### Disabled styles
+
+This button supports `disabled` prop even when you're not using a `<button>`. But by default the only style that is applied is `pointer-events: none`, and if you'd need something else, you'd need to use `_disabled` modifier:
+
+    const Button = BemtoButton.extend`
+      &__Content {
+        border: 1px solid;
+        padding: 5px;
+      }
+
+      &_disabled {
+        opacity: 0.5;
+      }
+    `;
+
+    <div>
+      <p><Button disabled>Disabled Button</Button></p>
+      <p><Button disabled href="#x">Disabled Link Button</Button></p>
+    </div>
+
+Those buttons won't be clickable and won't get keyboard focus.
+
 ### Focus styles
 
 For adding focus styles you can use a `BemtoButton.focusCSS(css)` helper, which would:
@@ -160,6 +183,8 @@ Note that you could always also add a non-keyboard specific focus styles if you'
     <Button>Click me!</Button>
 
 Note that if you're not using the `.focusCSS` helper, you'd need to manually display the `&__Focus` element on focus.
+
+I've found that styling the focus this way (with an extra element) is the most convenient: you get most control over which styles you'd want to apply, so you won't have, for example, conflict between shadow on the button itself and the focus style's shadow.
 
 ### Before and After elements
 
