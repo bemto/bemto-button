@@ -1,7 +1,12 @@
 # bemto-button
 
-[<img align='right' src='https://user-images.githubusercontent.com/177485/33218860-7d677632-d13f-11e7-81ff-457ab2d21837.gif' alt='Demo gif of the button' title='Demo gif of the button' />](http://kizu.ru/bemto-components/#bemtobutton)
-
+<p align='right'>
+  <a href='http://kizu.ru/bemto-components/#bemtobutton'>
+    <img src='https://user-images.githubusercontent.com/177485/33218860-7d677632-d13f-11e7-81ff-457ab2d21837.gif' alt='Demo gif of the button' title='Demo gif of the button' /><br/>
+    <strong>Visit the documentation with multiple interactive examples.</strong>
+  </a>
+</p>
+  
 [![Build Status][build]][build-link] [![NPM package version][version]][version-link]
 
 [build]: https://travis-ci.org/bemto/bemto-button.svg?branch=master
