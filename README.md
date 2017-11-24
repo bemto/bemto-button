@@ -11,8 +11,6 @@ This is a foundation for all the buttons I use in my markup for more than 4 year
 
 You can use it as a base for highly functional and stylable buttons which provides basic reset & layout which you could later easily style by extending with styled-components (or use your external styles). This component has all the powers of bemto-components beneath, so you can use modifiers, polymorphic tags and all the other stuff. See the docs of [bemto-components](http://kizu.ru/bemto-components/#elements) for more features and [this component's source code](https://github.com/bemto/bemto-button) to how easily it is done.
 
-The documentation for the bemto-button is available as a [section of bemto-components' docs](http://kizu.ru/bemto-components/#bemtobutton). You could see there all the features of bemto-button and play with them right in your browser in an interactive playgrounds.
-
 [Each example at **documentation** is an interactive playground like this one ↓](http://kizu.ru/bemto-components/#bemtobutton)
 
 [<img align='right' src='https://user-images.githubusercontent.com/177485/33218860-7d677632-d13f-11e7-81ff-457ab2d21837.gif' alt='Demo gif of the button' title='Demo gif of the button' />](http://kizu.ru/bemto-components/#bemtobutton)
