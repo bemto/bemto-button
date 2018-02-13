@@ -168,11 +168,11 @@ Note that you could always also add a non-keyboard specific focus styles if you'
       &__Content {
         border: 1px solid;
         padding: 5px;
+      }
 
-        *:focus + &__Focus {
-          visibility: inherit;
-          box-shadow: 0 0 0 3px pink;
-        }
+      *:focus + &__Focus {
+        visibility: inherit;
+        box-shadow: 0 0 0 3px pink;
       }
 
       ${BemtoButton.focusCSS(`
