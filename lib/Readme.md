@@ -1,4 +1,4 @@
-This is a foundation for all the buttons I use in my markup for more than 4 years. Now in a form of a React component, using [bemto-components](https://github.com/kizu/bemto-components) and [styled-components](https://www.styled-components.com/).
+This is a foundation for all the buttons I use in my markup for more than 4 years. Now in a form of a React component, using [bemto-components](https://github.com/bemto/bemto-components) and [styled-components](https://www.styled-components.com/).
 
 [![Build Status][build]][build-link] [![NPM package version][version]][version-link]
 

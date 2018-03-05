@@ -5,15 +5,18 @@ exports[`A button with modifier and both elements 1`] = `
   -moz-appearance: none;
   position: relative;
   z-index: 1;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   display: inline-block;
   vertical-align: baseline;
+  overflow: visible;
   box-sizing: border-box;
   max-width: 100%;
   padding: 0;
   border: none;
   margin: 0;
+  border-radius: 0;
   white-space: nowrap;
   text-align: center;
   -webkit-box-pack: center;
@@ -21,6 +24,7 @@ exports[`A button with modifier and both elements 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
   background: transparent;
@@ -74,8 +78,10 @@ exports[`A button with modifier and both elements 1`] = `
 
 .c0__Text {
   display: block;
+  -webkit-flex-shrink: 1;
   -ms-flex-negative: 1;
   flex-shrink: 1;
+  -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   overflow: hidden;
@@ -85,6 +91,7 @@ exports[`A button with modifier and both elements 1`] = `
 
 *:root .c0__Text,
 .c0__Text:-ms-input-placeholder {
+  -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
   flex-basis: auto;
   width: 100%;
@@ -94,6 +101,7 @@ exports[`A button with modifier and both elements 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   float: left;
@@ -106,6 +114,7 @@ exports[`A button with modifier and both elements 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   float: right;
@@ -150,15 +159,18 @@ exports[`An extended button 1`] = `
   -moz-appearance: none;
   position: relative;
   z-index: 1;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   display: inline-block;
   vertical-align: baseline;
+  overflow: visible;
   box-sizing: border-box;
   max-width: 100%;
   padding: 0;
   border: none;
   margin: 0;
+  border-radius: 0;
   white-space: nowrap;
   text-align: center;
   -webkit-box-pack: center;
@@ -166,6 +178,7 @@ exports[`An extended button 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
   background: transparent;
@@ -220,8 +233,10 @@ exports[`An extended button 1`] = `
 
 .c0__Text {
   display: block;
+  -webkit-flex-shrink: 1;
   -ms-flex-negative: 1;
   flex-shrink: 1;
+  -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   overflow: hidden;
@@ -231,6 +246,7 @@ exports[`An extended button 1`] = `
 
 *:root .c0__Text,
 .c0__Text:-ms-input-placeholder {
+  -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
   flex-basis: auto;
   width: 100%;
@@ -240,6 +256,7 @@ exports[`An extended button 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   float: left;
@@ -252,6 +269,7 @@ exports[`An extended button 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   float: right;
@@ -298,15 +316,18 @@ exports[`Disabled button 1`] = `
   -moz-appearance: none;
   position: relative;
   z-index: 1;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   display: inline-block;
   vertical-align: baseline;
+  overflow: visible;
   box-sizing: border-box;
   max-width: 100%;
   padding: 0;
   border: none;
   margin: 0;
+  border-radius: 0;
   white-space: nowrap;
   text-align: center;
   -webkit-box-pack: center;
@@ -314,6 +335,7 @@ exports[`Disabled button 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
   background: transparent;
@@ -367,8 +389,10 @@ exports[`Disabled button 1`] = `
 
 .c0__Text {
   display: block;
+  -webkit-flex-shrink: 1;
   -ms-flex-negative: 1;
   flex-shrink: 1;
+  -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   overflow: hidden;
@@ -378,6 +402,7 @@ exports[`Disabled button 1`] = `
 
 *:root .c0__Text,
 .c0__Text:-ms-input-placeholder {
+  -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
   flex-basis: auto;
   width: 100%;
@@ -387,6 +412,7 @@ exports[`Disabled button 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   float: left;
@@ -399,6 +425,7 @@ exports[`Disabled button 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   float: right;
@@ -431,15 +458,18 @@ exports[`Disabled link 1`] = `
   -moz-appearance: none;
   position: relative;
   z-index: 1;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   display: inline-block;
   vertical-align: baseline;
+  overflow: visible;
   box-sizing: border-box;
   max-width: 100%;
   padding: 0;
   border: none;
   margin: 0;
+  border-radius: 0;
   white-space: nowrap;
   text-align: center;
   -webkit-box-pack: center;
@@ -447,6 +477,7 @@ exports[`Disabled link 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
   background: transparent;
@@ -500,8 +531,10 @@ exports[`Disabled link 1`] = `
 
 .c0__Text {
   display: block;
+  -webkit-flex-shrink: 1;
   -ms-flex-negative: 1;
   flex-shrink: 1;
+  -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   overflow: hidden;
@@ -511,6 +544,7 @@ exports[`Disabled link 1`] = `
 
 *:root .c0__Text,
 .c0__Text:-ms-input-placeholder {
+  -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
   flex-basis: auto;
   width: 100%;
@@ -520,6 +554,7 @@ exports[`Disabled link 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   float: left;
@@ -532,6 +567,7 @@ exports[`Disabled link 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   float: right;
@@ -564,15 +600,18 @@ exports[`Just a button 1`] = `
   -moz-appearance: none;
   position: relative;
   z-index: 1;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   display: inline-block;
   vertical-align: baseline;
+  overflow: visible;
   box-sizing: border-box;
   max-width: 100%;
   padding: 0;
   border: none;
   margin: 0;
+  border-radius: 0;
   white-space: nowrap;
   text-align: center;
   -webkit-box-pack: center;
@@ -580,6 +619,7 @@ exports[`Just a button 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
   background: transparent;
@@ -633,8 +673,10 @@ exports[`Just a button 1`] = `
 
 .c0__Text {
   display: block;
+  -webkit-flex-shrink: 1;
   -ms-flex-negative: 1;
   flex-shrink: 1;
+  -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   overflow: hidden;
@@ -644,6 +686,7 @@ exports[`Just a button 1`] = `
 
 *:root .c0__Text,
 .c0__Text:-ms-input-placeholder {
+  -webkit-flex-basis: auto;
   -ms-flex-preferred-size: auto;
   flex-basis: auto;
   width: 100%;
@@ -653,6 +696,7 @@ exports[`Just a button 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   float: left;
@@ -665,6 +709,7 @@ exports[`Just a button 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
+  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   float: right;
@@ -672,6 +717,8 @@ exports[`Just a button 1`] = `
 
 <button
   className="c0"
+  role="button"
+  tabIndex="0"
   type="button"
 >
   <span

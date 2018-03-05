@@ -7,7 +7,7 @@
 [docs-shield]: https://img.shields.io/badge/docs_are-interactive-66C764.svg
 [docs-link]: http://kizu.ru/bemto-components/#bemtobutton
 
-This is a foundation for all the buttons I use in my markup for more than 4 years. Now in a form of a React component, using [bemto-components](https://github.com/kizu/bemto-components) and [styled-components](https://www.styled-components.com/).
+This is a foundation for all the buttons I use in my markup for more than 4 years. Now in a form of a React component, using [bemto-components](https://github.com/bemto/bemto-components) and [styled-components](https://www.styled-components.com/).
 
 You can use it as a base for highly functional and stylable buttons which provides basic reset & layout which you could later easily style by extending with styled-components (or use your external styles). This component has all the powers of bemto-components beneath, so you can use modifiers, polymorphic tags and all the other stuff. See the docs of [bemto-components](http://kizu.ru/bemto-components/#elements) for more features and [this component's source code](https://github.com/bemto/bemto-button) to how easily it is done.
 

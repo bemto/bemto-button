@@ -1,6 +1,6 @@
 {
   "name": "bemto-button",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Complex button foundation based on bemto-components & styled-components",
   "main": "lib/index.js",
   "scripts": {
@@ -24,15 +24,14 @@
   },
   "homepage": "https://github.com/bemto/bemto-button#readme",
   "dependencies": {
-    "bemto-components": "^1.6.0",
-    "styled-components": "^2.2.3"
+    "bemto-components": "^2.0.0",
+    "styled-components": "^3.1.6"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "jest": "^21.2.1",
-    "jest-styled-components": "^4.9.0",
-    "react-test-renderer": "16.1.1",
-    "styled-components": "^2.2.3"
+    "jest": "^22.4.2",
+    "jest-styled-components": "^5.0.0",
+    "react-test-renderer": "16.1.1"
   }
 }

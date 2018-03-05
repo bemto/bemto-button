@@ -1,8 +1,10 @@
 ## Changelog
 
-### v0.2.1 (in development)
+### v0.3.0 (2018-03-05)
 
+- Updated deps (bemto-components & styled-components).
 - Fixed non-reset initial border-radius on parent & IE overflow issue.
+- kizu/bemto-components → bemto/bemto-components.
 
 ### v0.2.0 (2017-11-23)
 
