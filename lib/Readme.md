@@ -11,6 +11,8 @@ This is the base for highly functional and stylable buttons which provides basic
 
 ### Installation & Usage
 
+Note: `bemto-button` uses [styled-components](https://www.styled-components.com/) as a peer dependency, as its bad to include more than one instance of styled-components in your app, so you need to have it installed as well.
+
 In your console:
 
 ``` sh
