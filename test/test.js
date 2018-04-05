@@ -7,9 +7,7 @@ import BemtoButton from '..';
 const ExtendedButton = BemtoButton.extend`
   background: lime;
 
-  ${BemtoButton.focusCSS(`
-    box-shadow: 0 0 5px 5px pink;
-  `)}
+  ${BemtoButton.focusCSS(`box-shadow: 0 0 5px 5px pink;`)}
 `;
 
 const testSnapshot = function(tag, props, children) {

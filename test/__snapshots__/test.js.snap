@@ -53,6 +53,7 @@ exports[`A button with modifier and both elements 1`] = `
   display: inline-flex;
   box-sizing: border-box;
   width: 100%;
+  border-radius: inherit;
 }
 
 .c0__Focus {
@@ -72,7 +73,7 @@ exports[`A button with modifier and both elements 1`] = `
   min-width: 0;
 }
 
-.c0__BLHelper:before {
+.c0__BLHelper::before {
   content: "\\a0";
 }
 
@@ -208,6 +209,7 @@ exports[`An extended button 1`] = `
   display: inline-flex;
   box-sizing: border-box;
   width: 100%;
+  border-radius: inherit;
 }
 
 .c0__Focus {
@@ -227,7 +229,7 @@ exports[`An extended button 1`] = `
   min-width: 0;
 }
 
-.c0__BLHelper:before {
+.c0__BLHelper::before {
   content: "\\a0";
 }
 
@@ -364,6 +366,7 @@ exports[`Disabled button 1`] = `
   display: inline-flex;
   box-sizing: border-box;
   width: 100%;
+  border-radius: inherit;
 }
 
 .c0__Focus {
@@ -383,7 +386,7 @@ exports[`Disabled button 1`] = `
   min-width: 0;
 }
 
-.c0__BLHelper:before {
+.c0__BLHelper::before {
   content: "\\a0";
 }
 
@@ -506,6 +509,7 @@ exports[`Disabled link 1`] = `
   display: inline-flex;
   box-sizing: border-box;
   width: 100%;
+  border-radius: inherit;
 }
 
 .c0__Focus {
@@ -525,7 +529,7 @@ exports[`Disabled link 1`] = `
   min-width: 0;
 }
 
-.c0__BLHelper:before {
+.c0__BLHelper::before {
   content: "\\a0";
 }
 
@@ -648,6 +652,7 @@ exports[`Just a button 1`] = `
   display: inline-flex;
   box-sizing: border-box;
   width: 100%;
+  border-radius: inherit;
 }
 
 .c0__Focus {
@@ -667,7 +672,7 @@ exports[`Just a button 1`] = `
   min-width: 0;
 }
 
-.c0__BLHelper:before {
+.c0__BLHelper::before {
   content: "\\a0";
 }
 

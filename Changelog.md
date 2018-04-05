@@ -1,5 +1,11 @@
 ## Changelog
 
+### v0.5.0 (2018-04-05)
+
+- Added stylelint.
+- Added border-radius inheritance on Content element.
+- Updated deps.
+
 ### v0.4.0 (2018-03-05)
 
 - Moved styled-components to peer dependency.
