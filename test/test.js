@@ -1,10 +1,11 @@
 import React from 'react';
+import styled from 'styled-components';
 import renderer from 'react-test-renderer';
 import 'jest-styled-components';
 
 import BemtoButton from '..';
 
-const ExtendedButton = BemtoButton.extend`
+const ExtendedButton = styled(BemtoButton)`
   background: lime;
 
   ${BemtoButton.focusCSS(`box-shadow: 0 0 5px 5px pink;`)}

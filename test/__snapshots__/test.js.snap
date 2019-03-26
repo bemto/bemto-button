@@ -298,17 +298,17 @@ exports[`An extended button 1`] = `
   type={null}
 >
   <span
-    className="__Content c0__Content"
+    className="__Content __Content c0__Content"
     tabIndex="-1"
   >
     <span
-      className="__Text c0__Text"
+      className="__Text __Text c0__Text"
     >
       Some text
     </span>
   </span>
   <span
-    className="__Focus c0__Focus"
+    className="__Focus __Focus c0__Focus"
   />
 </span>
 `;

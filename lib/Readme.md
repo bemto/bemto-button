@@ -31,10 +31,10 @@ If you won't do anything else, you'd get just the foundation for complex buttons
 
     <BemtoButton>Hello, world!</BemtoButton>
 
-But that foundation can be really easily styled by [extending](https://www.styled-components.com/docs/api#extend):
+But that foundation can be really easily styled by [extending](https://www.styled-components.com/docs/basics#extending-styles):
 
     // That's now the proper usage:
-    const Button = BemtoButton.extend`
+    const Button = styled(BemtoButton)`
       border-radius: 9em;
       background: linear-gradient(#FFF, #EEE);
       box-shadow: 0 1px 3px -3px rgba(0,0,0,0.5),
@@ -61,7 +61,7 @@ But that foundation can be really easily styled by [extending](https://www.style
 
 ### Styling guide
 
-When used with styled-components, you **must** extend the styles. Don't use the component without extending and don't wrap with `styled()` as this would produce unneeded classNames and would be overall worse than `.extend`.
+When used with styled-components, you **must** extend the styles.
 
 1. Try not to use any styles that alter layout (`padding`, `border` etc.) on the top element of the button, try to use them on `&__Content` and below. That is because if you'd want to use keyboard-only focus styles, you'd need the `&__Content` to always cover all of the `&`'s area.
 
@@ -85,7 +85,7 @@ The following Elements are available for styling and adding additional props (se
 
 By default the button would be a button with `type='button'`. You can change this by calling it with `type='submit'` for submit, by passing `href` (it would become a `<a>`) or passing `false` to `type` to make it a span.
 
-    const Button = BemtoButton.extend`
+    const Button = styled(BemtoButton)`
       &__Content {
         border: 1px solid;
         padding: 5px;
@@ -104,7 +104,7 @@ Note that the button would be focusable in each case: whenever it becomes someth
 
 The button is kinda bulletproof: its text would be trimmed by ellipsis if there'd be too much content, its width can become properly `100%` of its container, you can set its width to any number without breaking it, and it would even keep the baseline in most of the cases (see [this article](http://kizu.ru/en/blog/flex-baseline/) on how this is done).
 
-    const Button = BemtoButton.extend`
+    const Button = styled(BemtoButton)`
       &__Content {
         border: 1px solid;
         padding: 5px;
@@ -125,7 +125,7 @@ The button is kinda bulletproof: its text would be trimmed by ellipsis if there'
 
 This button supports `disabled` prop even when you're not using a `<button>`. But by default the only style that is applied is `pointer-events: none`, and if you'd need something else, you'd need to use `_disabled` modifier:
 
-    const Button = BemtoButton.extend`
+    const Button = styled(BemtoButton)`
       &__Content {
         border: 1px solid;
         padding: 5px;
@@ -151,7 +151,7 @@ For adding focus styles you can use a `BemtoButton.focusCSS(css)` helper, which 
 2. Add the passed styles to the `&__Content` element only when our button would get keyboard focus (see [this article](http://kizu.ru/en/blog/keyboard-only-focus/) on how this is done).
 
  
-    const Button = BemtoButton.extend`
+    const Button = styled(BemtoButton)`
       &__Content {
         border: 1px solid;
         padding: 5px;
@@ -166,7 +166,7 @@ For adding focus styles you can use a `BemtoButton.focusCSS(css)` helper, which 
 
 Note that you could always also add a non-keyboard specific focus styles if you'd want by styling `*:focus + &__Focus` (and those styles _won't_ be applied on keyboard focus, so you could choose more precisely how to style those different states), however that won't work on `<button>` in Firefox due to [this bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1375877), as it prevents buttons to have CSS states inside of them.
 
-    const Button = BemtoButton.extend`
+    const Button = styled(BemtoButton)`
       &__Content {
         border: 1px solid;
         padding: 5px;
@@ -194,7 +194,7 @@ Sometimes you'd need to add some HTML before or after your button's text. But yo
 
 For this, you can use `__Before` and `__After` elements:
 
-    const Button = BemtoButton.extend`
+    const Button = styled(BemtoButton0`
       &__Content {
         border: 1px solid;
         padding: 5px;

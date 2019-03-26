@@ -1,5 +1,12 @@
 ## Changelog
 
+### v0.6.0 (2019-03-26)
+
+Note: this project wouldn't probably be updated a lot, due to me re-thinking the architecture of the bemto-components as a whole, this is a maintainance update in order to allow usage of the newer version of styled-components.
+
+- Updated the version of styled-components.
+- Updated some of the deps.
+
 ### v0.5.0 (2018-04-05)
 
 - Added stylelint.
